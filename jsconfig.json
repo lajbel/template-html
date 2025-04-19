@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "types": [
+            "./types/declaration/global.d.ts"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+    ]
+}

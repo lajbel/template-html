@@ -1,0 +1,35 @@
+{
+    "files": [
+        {
+            "path": "assets",
+            "type": "folder",
+            "strategy": "create"
+        },
+        {
+            "path": "index.html",
+            "type": "file",
+            "strategy": "template"
+        },
+        {
+            "path": "src/game.js",
+            "type": "file",
+            "strategy": "template"
+        },
+        {
+            "path": "types/doc.d.ts",
+            "type": "file",
+            "strategy": "fetch",
+            "url": "https://unpkg.com/kaplay@{{version}}/dist/doc.d.ts"
+        },
+        {
+            "path": "types/declaration/global.d.ts",
+            "type": "file",
+            "strategy": "fetch",
+            "url": "https://unpkg.com/kaplay@{{version}}/dist/declaration/global.d.ts"
+        }
+    ],
+    "config": {
+        "type": "template",
+        "assets": "assets"
+    }
+} 
