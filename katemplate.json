@@ -2,8 +2,7 @@
     "files": [
         {
             "path": "assets",
-            "type": "folder",
-            "strategy": "create"
+            "type": "folder"
         },
         {
             "path": "index.html",
